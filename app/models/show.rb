@@ -7,5 +7,5 @@ class Show < ActiveRecord::Base
     self.characters.map do |c|
             "#{c.actor.full_name}"
   end
-  
+end
 end
